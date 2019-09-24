@@ -2,7 +2,7 @@
   "name": "videos",
   "version": "0.1.0",
   "private": true,
-  "engines":{
+  "engines": {
     "npm": "6.4.1",
     "node": "10.15.0"
   },
@@ -16,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm install --prefix client &&"
   },
   "eslintConfig": {
     "extends": "react-app"
